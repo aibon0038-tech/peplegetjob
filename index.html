@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>業界別 採用市場分析ツール</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>業界別 採用市場分析ツール</h1>
+    </div>
+    <label class="industry-picker">
+      <span>対象業界</span>
+      <select id="industrySelect" aria-label="対象業界を選択"></select>
+    </label>
+  </header>
+
+  <main>
+    <section class="summary-band" id="summary"></section>
+    <nav class="tabs" id="tabs" aria-label="分析項目"></nav>
+    <section class="content" id="content" aria-live="polite"></section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
